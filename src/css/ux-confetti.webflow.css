@@ -273,6 +273,7 @@
   display: flex;
   height: 100%;
   max-width: 46%;
+  min-width: 46%;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -945,8 +946,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #bdbdbd;
+  color: #242323;
   text-align: center;
+}
+
+.nav-link-5:hover {
+  color: #f65802;
 }
 
 .nav-link-6 {
@@ -1132,6 +1137,10 @@
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
+}
+
+.bold-text-3 {
+  font-weight: 400;
 }
 
 @media screen and (max-width: 991px) {
