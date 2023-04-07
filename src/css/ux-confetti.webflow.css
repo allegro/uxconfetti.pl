@@ -1158,6 +1158,15 @@
   flex: 0 auto;
 }
 
+.section-4 {
+  background-color: #242323;
+}
+
+.container-9 {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
