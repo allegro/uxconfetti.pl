@@ -661,7 +661,7 @@
 
 .container-3 {
   width: 100%;
-  max-width: 940px;
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -814,7 +814,12 @@
   position: relative;
 }
 
-.heading-4, .heading-5 {
+.heading-4 {
+  color: #f65802;
+  margin-top: 0;
+}
+
+.heading-5 {
   margin-top: 0;
 }
 
@@ -1011,6 +1016,7 @@
 
 .tabs-content {
   margin-top: 20px;
+  display: block;
 }
 
 .tab-link-1-edycja---2020 {
@@ -1048,8 +1054,10 @@
 }
 
 .nagrania {
+  max-width: 1024px;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
+  flex-direction: column;
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -1113,8 +1121,10 @@
   display: flex;
 }
 
-.text-block-8 {
+.war1 {
+  color: #f65802;
   align-items: center;
+  font-weight: 700;
   display: flex;
 }
 
@@ -1128,6 +1138,35 @@
 .columns-2 {
   align-items: center;
   display: flex;
+}
+
+.bold-text-6 {
+  color: #f65802;
+}
+
+.war2 {
+  align-items: center;
+  margin-left: 6px;
+  display: flex;
+}
+
+.container-11 {
+  max-width: 1024px;
+  display: flex;
+}
+
+.section-5 {
+  max-width: 1024px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.tabs {
+  display: block;
 }
 
 @media screen and (max-width: 991px) {
