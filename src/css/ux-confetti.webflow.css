@@ -1326,6 +1326,26 @@
   .features-wrapper-2 {
     justify-content: space-between;
   }
+
+  .nav-menu {
+    background-color: #fff;
+  }
+
+  .toggle {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+  }
+
+  .war2 {
+    white-space: normal;
+    object-fit: fill;
+    flex-wrap: nowrap;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1454,6 +1474,11 @@
   .split---black, .split---white {
     padding: 60px 15px;
   }
+
+  .body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1520,6 +1545,21 @@
 
   .stopka {
     text-align: center;
+  }
+
+  .toggle {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .war2 {
+    flex-wrap: nowrap;
+  }
+
+  .tabs-menu-2 {
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
   }
 }
 
