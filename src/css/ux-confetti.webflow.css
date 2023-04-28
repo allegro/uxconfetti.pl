@@ -1121,6 +1121,7 @@
 
 .toggle {
   height: 80px;
+  border: 1px #000;
   display: flex;
 }
 
@@ -1264,6 +1265,17 @@
   max-width: 250px;
 }
 
+.item-copy {
+  width: 100%;
+  overflow: hidden;
+}
+
+.nierozwijak {
+  height: 80px;
+  border: 1px #000;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
@@ -1377,6 +1389,12 @@
     padding-right: 0;
     display: flex;
     overflow: hidden;
+  }
+
+  .nierozwijak {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
   }
 }
 
@@ -1592,6 +1610,11 @@
     flex-direction: column;
     justify-content: space-around;
     display: flex;
+  }
+
+  .nierozwijak {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 
