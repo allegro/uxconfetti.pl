@@ -220,7 +220,7 @@
   background-color: #43464d;
 }
 
-.hero-heading-center {
+.split---main {
   color: #242323;
   padding: 30px;
   position: relative;
@@ -1299,7 +1299,7 @@
 
 .toggle-agenda {
   height: 80px;
-  background-image: linear-gradient(to right, #f65802 59%, #fff);
+  background-image: linear-gradient(to right, #f65802, #fff 22%);
   border-color: #f65802;
   border-top-style: none;
   border-top-width: 5px;
@@ -1324,7 +1324,7 @@
 }
 
 .agenda-static1 {
-  color: #fff;
+  color: #242323;
   align-items: center;
   font-size: 18px;
   font-weight: 700;
@@ -1332,7 +1332,7 @@
 }
 
 .agenda-static2 {
-  color: #fff;
+  color: #242323;
   align-items: center;
   margin-left: 6px;
   display: flex;
@@ -1354,7 +1354,7 @@
   width: 100%;
   height: 80px;
   max-width: 1024px;
-  background-image: linear-gradient(to right, #bdbdbd 64%, #fff);
+  background-image: linear-gradient(to right, #bdbdbd, #fff 30%);
   border-left: 5px solid #bdbdbd;
   flex-direction: column;
   justify-content: center;
@@ -1373,7 +1373,7 @@
 }
 
 .ag1 {
-  color: #fff;
+  color: #242323;
   align-items: center;
   font-size: 18px;
   font-weight: 700;
@@ -1381,6 +1381,7 @@
 }
 
 .ag2 {
+  color: #242323;
   align-items: center;
   margin-left: 6px;
   font-size: 14px;
@@ -1437,6 +1438,16 @@
   margin-right: auto;
   padding-left: 20px;
   display: flex;
+}
+
+.ag_szcz {
+  color: #242323;
+  padding: 30px;
+  position: relative;
+}
+
+.bold-text-8 {
+  color: #242323;
 }
 
 @media screen and (max-width: 991px) {
@@ -1662,7 +1673,7 @@
     margin-top: 10px;
   }
 
-  .hero-heading-center {
+  .split---main {
     padding: 60px 15px;
   }
 
@@ -1729,6 +1740,10 @@
   .body {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .ag_szcz {
+    padding: 60px 15px;
   }
 }
 
@@ -1823,6 +1838,7 @@
   }
 
   .toggle-agenda {
+    justify-content: center;
     padding-top: 0;
     padding-bottom: 0;
   }
