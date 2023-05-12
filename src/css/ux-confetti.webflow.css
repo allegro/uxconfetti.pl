@@ -283,8 +283,8 @@
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  background-color: #f65802;
-  border: 1px solid #f65802;
+  background-color: #bdbdbd;
+  border: 1px solid #bdbdbd;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -296,9 +296,9 @@
 }
 
 .button-primary-2:hover {
-  color: #f65802;
-  background-color: #fff;
-  border: 1px solid #f65802;
+  color: #fff;
+  background-color: #bdbdbd;
+  border: 1px solid #bdbdbd;
   font-weight: 400;
 }
 
@@ -1522,6 +1522,15 @@
   max-width: 250px;
 }
 
+.div-block-copy {
+  width: 100%;
+  text-align: left;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
@@ -1846,6 +1855,11 @@
     white-space: normal;
     object-fit: fill;
     flex-wrap: nowrap;
+  }
+
+  .div-block-copy {
+    flex-direction: column;
+    justify-content: space-around;
   }
 }
 
