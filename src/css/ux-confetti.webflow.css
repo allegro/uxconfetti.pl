@@ -1559,6 +1559,65 @@
   background-color: #43464d;
 }
 
+.image-5 {
+  min-width: 360px;
+}
+
+.par_cegielka {
+  text-align: left;
+  font-size: 14px;
+}
+
+.div_cegielka {
+  width: 100%;
+  text-align: left;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  display: flex;
+}
+
+.c {
+  flex-direction: column;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.button-cegielka {
+  max-width: 250px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #f65802;
+  border: 1px solid #f65802;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 25px;
+  font-size: 12px;
+  line-height: 20px;
+  transition: all .2s;
+  display: block;
+}
+
+.button-cegielka:hover {
+  color: #f65802;
+  background-color: #fff;
+  border: 1px solid #f65802;
+  font-weight: 400;
+}
+
+.button-cegielka:active {
+  background-color: #43464d;
+}
+
+.split---cegielka {
+  background-color: #fff;
+  padding: 20px 30px;
+  position: relative;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
@@ -1885,9 +1944,13 @@
     flex-wrap: nowrap;
   }
 
-  .div-block-copy {
+  .div-block-copy, .div_cegielka {
     flex-direction: column;
     justify-content: space-around;
+  }
+
+  .split---cegielka {
+    padding: 60px 15px;
   }
 }
 
