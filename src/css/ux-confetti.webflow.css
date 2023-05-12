@@ -1518,6 +1518,10 @@
   display: flex;
 }
 
+.container-15 {
+  max-width: 250px;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
