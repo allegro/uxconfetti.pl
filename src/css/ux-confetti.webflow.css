@@ -1580,6 +1580,9 @@
 .c {
   flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
   display: flex;
 }
 
@@ -1616,6 +1619,51 @@
   background-color: #fff;
   padding: 20px 30px;
   position: relative;
+}
+
+.container-16 {
+  max-width: 1024px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.div-block-3 {
+  background-color: #f1f1f1;
+  border: 1px #f65802;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+}
+
+.section-6 {
+  background-color: #f1f1f1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.button {
+  color: #242323;
+  background-color: #f1f1f1;
+  border: 1px solid #f65802;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #f65802;
+}
+
+.paragraph-15 {
+  margin-bottom: 0;
+}
+
+.container-17 {
+  align-items: center;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
