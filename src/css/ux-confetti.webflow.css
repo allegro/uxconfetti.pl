@@ -1671,8 +1671,8 @@
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  background-color: #f65802;
-  border: 1px solid #f65802;
+  background-color: #bdbdbd;
+  border: 1px solid #bdbdbd;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1684,9 +1684,9 @@
 }
 
 .button-mentoring:hover {
-  color: #f65802;
-  background-color: #fff;
-  border: 1px solid #f65802;
+  color: #fff;
+  background-color: #bdbdbd;
+  border: 1px solid #bdbdbd;
   font-weight: 400;
 }
 
@@ -1708,8 +1708,8 @@
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  background-color: #f65802;
-  border: 1px solid #f65802;
+  background-color: #bdbdbd;
+  border: 1px solid #bdbdbd;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1721,14 +1721,23 @@
 }
 
 .button-mentua:hover {
-  color: #f65802;
-  background-color: #fff;
-  border: 1px solid #f65802;
+  color: #fff;
+  background-color: #bdbdbd;
+  border: 1px solid #bdbdbd;
   font-weight: 400;
 }
 
 .button-mentua:active {
   background-color: #43464d;
+}
+
+.div-block-copy-copy {
+  width: 100%;
+  text-align: left;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
@@ -2089,6 +2098,11 @@
     flex-direction: column;
     justify-content: space-around;
     display: flex;
+  }
+
+  .div-block-copy-copy {
+    flex-direction: column;
+    justify-content: space-around;
   }
 }
 
