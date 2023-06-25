@@ -1740,6 +1740,26 @@
   display: flex;
 }
 
+.nagrania3 {
+  max-width: 1024px;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  flex-direction: column;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  align-items: center;
+  display: flex;
+}
+
+.dostnagrania {
+  text-align: center;
+  border: 1px solid #f65802;
+  margin: 24px;
+  padding: 24px;
+  font-size: 18px;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
