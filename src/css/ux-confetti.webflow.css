@@ -2078,6 +2078,10 @@
     padding: 60px 15px;
   }
 
+  .hero-split {
+    align-items: center;
+  }
+
   .footer-light {
     padding-left: 15px;
     padding-right: 15px;
@@ -2120,7 +2124,15 @@
     padding: 0;
   }
 
-  .hero-without-image, .features-metrics-2 {
+  .hero-without-image {
+    padding: 60px 15px;
+  }
+
+  .heading-2 {
+    text-align: center;
+  }
+
+  .features-metrics-2 {
     padding: 60px 15px;
   }
 
@@ -2136,6 +2148,10 @@
 
   .split---black, .split---white {
     padding: 60px 15px;
+  }
+
+  .heading-4, .heading-5 {
+    text-align: center;
   }
 
   .div-block {
@@ -2178,6 +2194,14 @@
   .div-block-copy-copy {
     flex-direction: column;
     justify-content: space-around;
+  }
+
+  .container-18 {
+    flex-direction: column;
+  }
+
+  .image-6, .image-7, .image-8, .image-9, .image-10, .image-11, .image-12, .image-13, .image-14, .image-15, .image-16 {
+    object-fit: scale-down;
   }
 }
 
