@@ -931,7 +931,7 @@
   text-align: center;
   flex-direction: column;
   justify-content: center;
-  display: none;
+  display: flex;
 }
 
 .nav-link-3:hover {
@@ -1912,6 +1912,10 @@
   font-family: Montserrat, sans-serif;
   font-size: 18px;
   font-weight: 200;
+}
+
+.bold-text-9 {
+  font-weight: 400;
 }
 
 @media screen and (max-width: 991px) {
