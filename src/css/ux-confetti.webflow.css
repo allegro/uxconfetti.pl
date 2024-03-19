@@ -1918,6 +1918,24 @@
   font-weight: 400;
 }
 
+.tabs-mentoring {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: space-around;
+  display: grid;
+}
+
+.tabs-content-2 {
+  margin-bottom: 20px;
+}
+
+.section-7 {
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
@@ -2436,6 +2454,12 @@
 
   .faq-men, .container-3-copy {
     max-width: none;
+  }
+
+  .tabs-mentoring {
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
   }
 }
 
