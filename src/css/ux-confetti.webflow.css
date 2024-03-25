@@ -1716,7 +1716,7 @@
 
 .button-mentoring {
   border: 1px solid var(--silver);
-  background-color: var(--orange-red);
+  background-color: var(--silver);
   color: #fff;
   text-align: center;
   letter-spacing: 2px;
@@ -1733,8 +1733,8 @@
 
 .button-mentoring:hover {
   border: 1px solid var(--silver);
-  background-color: var(--color);
-  color: var(--orange-red);
+  background-color: var(--silver);
+  color: var(--color);
   font-weight: 400;
 }
 
