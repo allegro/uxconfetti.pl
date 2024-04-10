@@ -1352,7 +1352,7 @@
 
 .toggle-agenda {
   border-color: var(--orange-red);
-  background-image: linear-gradient(to right, var(--orange-red), white 22%);
+  background-image: linear-gradient(90deg, var(--orange-red), white 22%);
   border-top-style: none;
   border-top-width: 5px;
   border-left-style: solid;
@@ -1928,6 +1928,11 @@
   margin-top: 20px;
 }
 
+.ag-title {
+  color: var(--orange-red);
+  margin-top: 0;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
@@ -2267,8 +2272,12 @@
     padding: 60px 15px;
   }
 
-  .heading-4, .heading-5 {
+  .heading-4 {
     text-align: center;
+  }
+
+  .heading-5 {
+    text-align: left;
   }
 
   .div-block {
@@ -2319,6 +2328,11 @@
 
   .image-6, .image-7, .image-8, .image-9, .image-10, .image-11, .image-12, .image-13, .image-14, .image-15, .image-16 {
     object-fit: scale-down;
+  }
+
+  .ag-title {
+    text-align: left;
+    font-size: 24px;
   }
 }
 
@@ -2452,6 +2466,10 @@
     flex-direction: column;
     justify-content: space-around;
     display: flex;
+  }
+
+  .ag-title {
+    display: block;
   }
 }
 
