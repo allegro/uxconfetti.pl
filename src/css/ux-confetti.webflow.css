@@ -1967,7 +1967,7 @@
   font-weight: 700;
   line-height: 30px;
   transition: all .2s;
-  display: block;
+  display: none;
 }
 
 .button-onsite:hover {
@@ -1985,6 +1985,7 @@
   text-align: center;
   font-size: 24px;
   font-weight: 400;
+  display: none;
 }
 
 .warsztaty {
