@@ -2200,6 +2200,13 @@
   position: relative;
 }
 
+.par-ceg {
+  border: 1px solid var(--orange-red);
+  min-width: 360px;
+  padding: 12px;
+  display: inline-block;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
