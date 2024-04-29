@@ -4,10 +4,10 @@
   --gainsboro: #e6e6e6;
   --silver: #bdbdbd;
   --color: white;
-  --blue: white;
   --war: #62aef5;
   --purple: #574127;
   --lue: var(--blue);
+  --blue: white;
 }
 
 .w-layout-blockcontainer {
@@ -1676,8 +1676,9 @@
 }
 
 .div-block-3 {
-  border: 1px none var(--orange-red);
-  background-color: #f1f1f1;
+  border: 3px solid var(--war);
+  background-color: var(--color);
+  border-radius: 1px;
   justify-content: space-around;
   align-items: center;
   padding: 10px;
@@ -1685,15 +1686,16 @@
 }
 
 .section-6 {
-  background-color: #f1f1f1;
+  background-color: var(--color);
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 .button {
-  border: 1px solid var(--orange-red);
+  border: 1px solid var(--war);
+  background-color: var(--color);
   color: var(--black);
-  background-color: #f1f1f1;
+  text-align: center;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -1701,7 +1703,7 @@
 }
 
 .button:hover {
-  background-color: var(--orange-red);
+  background-color: var(--war);
   color: #fff;
 }
 
@@ -1967,8 +1969,8 @@
 }
 
 .button-onsite {
-  border: 1px solid var(--blue);
-  background-color: var(--silver);
+  border: 1px solid var(--orange-red);
+  background-color: var(--orange-red);
   color: #fff;
   text-align: center;
   letter-spacing: 2px;
