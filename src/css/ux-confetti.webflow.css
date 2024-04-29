@@ -1606,16 +1606,18 @@
 
 .image-5 {
   min-width: 360px;
+  max-width: 360px;
 }
 
 .par_cegielka {
   text-align: left;
+  margin-bottom: 34px;
   font-size: 14px;
 }
 
 .div_cegielka {
   text-align: left;
-  flex-direction: row;
+  flex-flow: column;
   justify-content: space-between;
   align-items: stretch;
   width: 100%;
@@ -1641,7 +1643,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 250px;
+  width: 100%;
+  max-width: 100%;
   padding: 12px 25px;
   font-size: 12px;
   line-height: 20px;
@@ -1651,13 +1654,13 @@
 
 .button-cegielka:hover {
   border: 1px solid var(--orange-red);
-  color: var(--orange-red);
-  background-color: #fff;
+  background-color: var(--orange-red);
+  color: var(--color);
   font-weight: 400;
 }
 
 .button-cegielka:active {
-  background-color: #43464d;
+  background-color: var(--orange-red);
 }
 
 .split---cegielka {
@@ -1707,6 +1710,14 @@
 }
 
 .container-17 {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  flex-flow: row;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: row;
+  justify-content: space-around;
   align-items: center;
   display: flex;
 }
@@ -2071,7 +2082,7 @@
   grid-row-gap: 24px;
   flex-flow: row;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
   max-width: 1024px;
   margin-left: auto;
@@ -2146,6 +2157,47 @@
   padding-bottom: 20px;
   padding-left: 20px;
   display: flex;
+}
+
+.button-ceg {
+  border: 1px solid var(--war);
+  background-color: var(--war);
+  text-align: center;
+  border-radius: 0;
+  min-width: 300px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.button-ceg:hover {
+  background-color: var(--color);
+  color: var(--war);
+}
+
+.cc {
+  flex-flow: column;
+  display: flex;
+}
+
+.sb1 {
+  background-color: var(--black);
+  border-bottom: 1px solid #e4ebf3;
+  margin-top: 0;
+  padding: 20px 30px;
+  display: none;
+  position: relative;
+}
+
+.sb1.wersja2 {
+  display: none;
+}
+
+.sw1 {
+  background-color: #fff;
+  padding: 20px 30px;
+  display: none;
+  position: relative;
 }
 
 @media screen and (max-width: 991px) {
@@ -2334,6 +2386,10 @@
     max-width: 728px;
   }
 
+  .container-17 {
+    flex-flow: column;
+  }
+
   .div-block-copy {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
@@ -2358,6 +2414,12 @@
 
   .warsztat, .con-main {
     max-width: 728px;
+  }
+
+  .cc {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-bottom: 34px;
   }
 }
 
@@ -2584,7 +2646,7 @@
     display: flex;
   }
 
-  .s1 {
+  .s1, .sb1, .sw1 {
     padding: 60px 15px;
   }
 }
