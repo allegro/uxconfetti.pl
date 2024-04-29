@@ -1712,7 +1712,7 @@
 .container-17 {
   grid-column-gap: 12px;
   grid-row-gap: 12px;
-  flex-flow: row;
+  flex-flow: column;
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -2177,6 +2177,7 @@
 
 .cc {
   flex-flow: column;
+  margin-bottom: 34px;
   display: flex;
 }
 
